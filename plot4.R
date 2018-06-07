@@ -16,7 +16,7 @@ hpc$datetime <- strptime(hpc$datetime, format = "%Y-%m-%d %H:%M:%S")
 
 ## Open png graphics device and set parameters
 png("ExData_Plotting1/plot4.png")
-par(mfcol = c(2, 2), mar = c(4.5, 4, 1, 2))
+par(mfcol = c(2, 2))
 
 ## Make first plot
 with(hpc, plot(datetime, Global_active_power, type = "n", xlab = "", 
